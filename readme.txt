@@ -1,0 +1,25 @@
+=== FS - Custom Formats ===
+Contributors: Faire Savoir
+Tags: custom_formats, fs
+Requires at least: 5.0
+Tested up to: 5.7
+Requires PHP: 7.0
+
+This plugin is powered by Faire-Savoir. This plugin allows to use the "Format Custom" handler.
+
+== Description ==
+
+See the documentation for more informations.
+
+== Installation ==
+
+1. Installation must be done **manually**
+
+== Changelog ==
+
+= 1.0.0 - (20/04/2021) =
+
+* Add - First version of the plugin.
+* Add - readme.txt file.
+
+== Upgrade Notice ==
