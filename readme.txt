@@ -17,6 +17,10 @@ See the documentation for more informations.
 
 == Changelog ==
 
+= 1.0.1 - (20/04/2021) =
+
+* Fix - Correction Updater
+
 = 1.0.0 - (20/04/2021) =
 
 * Add - First version of the plugin.

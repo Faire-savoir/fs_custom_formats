@@ -1,14 +1,14 @@
 <?php
 /**
  * @package FS Custom Formats
- * @version 1.0.0
+ * @version 1.0.1
  */
 /*
 Plugin Name: FS Custom Formats
 Plugin URI: http://wordpress.org/plugins/
 Description: This plugin is powered by Faire-Savoir. It allows to use Custom Formats.
 Author: Faire Savoir
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://www.faire-savoir.com
 */
 
@@ -20,7 +20,7 @@ class Fs_custom_formats {
 
 
 	/** @var string The plugin version number */
-	var $version = '1.0.0';
+	var $version = '1.0.1';
 
 	var $plugin_id = 'fs_custom_formats';
 	var $plugin_name = 'FS - Custom Formats';
@@ -44,8 +44,8 @@ class Fs_custom_formats {
 			$myUpdateChecker->setAuthentication($token_api);
 			$myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
-			add_filter('puc_request_info_result-'.$this->plugin_id,[$this,'puc_modify_plugin_render']);
-			add_filter('puc_view_details_link_position-'.$this->plugin_id,[$this,'puc_modify_link_position']);
+			add_filter('puc_request_info_result-'.$this->plugin_id,['tis_wp_core','puc_modify_plugin_render']);
+			add_filter('puc_view_details_link_position-'.$this->plugin_id,['tis_wp_core','puc_modify_link_position']);
 		}
 
 		add_action('init', [$this, 'init_plugin']);
