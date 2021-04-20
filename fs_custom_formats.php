@@ -37,11 +37,7 @@ class Fs_custom_formats {
 				__FILE__,
 				$this->plugin_id
 			);
-			$token_api = get_option('options_tis_wp_core_token_api','');
-			if ( empty($token_api) ){
-				$token_api = get_option('tis_wp_core_get_token_api','');
-			}
-			$myUpdateChecker->setAuthentication($token_api);
+			
 			$myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 			add_filter('puc_request_info_result-'.$this->plugin_id,['tis_wp_core','puc_modify_plugin_render']);
