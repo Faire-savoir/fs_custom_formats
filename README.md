@@ -1,4 +1,4 @@
-# Elementor FS Widget (elementor-fs-widget) [![plugin version](https://img.shields.io/badge/version-v1.0.0-color.svg)](https://github.com/Faire-savoir/fs_custom_formats/releases/latest)
+# FS - Custom Formats (fs_custom_formats) [![plugin version](https://img.shields.io/badge/version-v1.0.0-color.svg)](https://github.com/Faire-savoir/fs_custom_formats/releases/latest)
 
 This plugin allows to use the "Format Custom" handler.
 
