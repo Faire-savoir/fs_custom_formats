@@ -17,7 +17,7 @@ function fs_init($field, $name){
 }
 
 function add_http_if_missed( $link ){
-  if ( !( strpos($link, 'http://')!==false || strpos($link, 'https://')!==false ) ){
+  if ( substr( $link, 0, 4 ) != 'http' ) {
     $link = 'http://'.$link;
   }
   return $link;
