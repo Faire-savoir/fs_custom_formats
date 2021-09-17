@@ -9,16 +9,16 @@
  * @return mixed            Le champ s'il existe, la valeur nulle '' sinon.
  */
 function fs_init($field, $name){
-  $return_field = '';
-  if ( isset($field[$name]) && !empty($field[$name]) ){
-    $return_field = $field[$name];
-  }
-  return $return_field;
+	$return_field = '';
+	if ( !empty($field[$name]) ){
+		$return_field = $field[$name];
+	}
+	return $return_field;
 }
 
 function add_http_if_missed( $link ){
-  if ( substr( $link, 0, 4 ) != 'http' ) {
-    $link = 'http://'.$link;
-  }
-  return $link;
+	if ( substr( $link, 0, 4 ) != 'http' ) {
+		$link = 'http://'.$link;
+	}
+	return $link;
 }
