@@ -22,8 +22,13 @@ function format_date_in_template( $field = [], $options = [] ){
 			clean_dates_with_recurrences($field);
 		}
 
-		// On tri le tableau $field avec le champ "date_début" spécifié dans l'option field_start.
-		usort($field, date_asc_sorter($options['field_start']));
+		// Prise en compte du champ de recherche de date avec un tri sur date de debut.
+		if ( function_exists( 'tis_dates_in_listing_order' ) ) {
+			tis_dates_in_listing_order($field, $options['field_start'], $options['field_end']);
+		}
+		else {
+			usort($field, date_asc_sorter($options['field_start']));
+		}
 
 		$first_date = [];
 		$other_dates = [];

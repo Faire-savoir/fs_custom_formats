@@ -1,11 +1,11 @@
-# FS - Custom Formats (fs_custom_formats) [![plugin version](https://img.shields.io/badge/version-v1.0.3-color.svg)](https://github.com/Faire-savoir/fs_custom_formats/releases/latest)
+# FS - Custom Formats (fs_custom_formats) [![plugin version](https://img.shields.io/badge/version-v1.0.4-color.svg)](https://github.com/Faire-savoir/fs_custom_formats/releases/latest)
 
 This plugin allows to use the "Format Custom" handler.
 
 ## Informations
 
 - Requires at least : ![wordpress version](https://img.shields.io/badge/WP-5.3.2-orange.svg)
-- Tested up to : ![wordpress version](https://img.shields.io/badge/WP-5.8.1-green.svg)
+- Tested up to : ![wordpress version](https://img.shields.io/badge/WP-5.9.1-green.svg)
 - Requires PHP : ![wordpress version](https://img.shields.io/badge/PHP-7.0-blue.svg)
 
 ## Description
@@ -22,6 +22,10 @@ Use automatic updater.
 
 
 ## Changelog
+
+### [1.0.4] - (14/03/2022)
+
+* Add - `tis_dates_in_listing_order` in date format
 
 ### [1.0.3] - (17/09/2021)
 

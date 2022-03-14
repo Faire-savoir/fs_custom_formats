@@ -1,14 +1,14 @@
 <?php
 /**
  * @package FS Custom Formats
- * @version 1.0.3
+ * @version 1.0.4
  */
 /*
 Plugin Name: FS Custom Formats
 Plugin URI: http://wordpress.org/plugins/
 Description: This plugin is powered by Faire-Savoir. It allows to use Custom Formats.
 Author: Faire Savoir
-Version: 1.0.3
+Version: 1.0.4
 Author URI: http://www.faire-savoir.com
 */
 
@@ -20,7 +20,7 @@ class Fs_custom_formats {
 
 
 	/** @var string The plugin version number */
-	var $version = '1.0.3';
+	var $version = '1.0.4';
 
 	var $plugin_id = 'fs_custom_formats';
 	var $plugin_name = 'FS - Custom Formats';

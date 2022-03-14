@@ -17,6 +17,10 @@ See the documentation for more informations.
 
 == Changelog ==
 
+= 1.0.4 - (14/03/2022) =
+
+* Add - tis_dates_in_listing_order in date format
+
 = 1.0.3 - (17/09/2021) =
 
 * Fix - Change condition in function `add_http_if_missed`.
